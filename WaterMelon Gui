@@ -139,8 +139,8 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Name.Size = UDim2.new(0, 61, 0, 27)
 	Name.Font = Enum.Font.GothamSemibold
 	Name.Text = hubname
-	Name.TextColor3 = Color3.fromRGB(147,112,219)
-	Name.TextSize = 17.000
+	Name.TextColor3 = Color3.fromRGB(0,255,0)
+	Name.TextSize = 18.000
 
 	local Hub = Instance.new("TextLabel")
 	Hub.Name = "Hub"
@@ -164,7 +164,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	BindButton.Size = UDim2.new(0, 100, 0, 27)
 	BindButton.Font = Enum.Font.GothamSemibold
 	BindButton.Text = "[RightControl]"
-	BindButton.TextColor3 = Color3.fromRGB(147,112,219)
+	BindButton.TextColor3 = Color3.fromRGB(0,255,0)
 	BindButton.TextSize = 13.000
 
 	local Tab = Instance.new("Frame")
